@@ -1,0 +1,31 @@
+/* instruccion #4 */
+body p{
+	color: green;
+}
+
+body{
+	background-color: black;
+	color: white !important;/* instruccion #2 */
+	font-family: Verdana;
+}
+/* instruccion #3 */
+p{
+	color: blue;
+}
+
+h1 {
+	font-family: Arial;
+}
+
+a {
+	color: inherit;
+}
+
+div{
+	margin-top: 10px;
+	margin-left: 20px;
+}
+/* instruccion #1 */
+body{
+	color: red;
+}

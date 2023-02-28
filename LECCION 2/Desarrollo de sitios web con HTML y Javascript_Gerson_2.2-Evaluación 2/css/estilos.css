@@ -1,0 +1,25 @@
+/* instruccion #3 */
+textarea{
+    width: 200px;
+}
+
+body{
+
+   /*margin-top: 20px;
+   margin-right: 20px;
+   margin-bottom: 20px;
+   margin-left: 20px;*/
+
+   /* instruccion #4 */
+   margin: 20px; /*forma abreviada de poner el margen a cada lado*/
+   font-family: Verdana;
+}
+/* instruccion #5 */
+input[name="email"]{ 
+    background-color: #eeeeee;
+}
+/* instruccion #6 */
+p,label{
+    font-family: Tahoma;
+    
+}

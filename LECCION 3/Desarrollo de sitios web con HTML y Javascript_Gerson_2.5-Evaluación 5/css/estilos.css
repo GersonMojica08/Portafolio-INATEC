@@ -1,0 +1,64 @@
+body {
+	margin-left: 15%;
+	font-family: Verdana;
+	width: 70%;
+	color: #605B56;
+}
+/*-----------*/
+header{
+	/*instruccion #1 */
+	padding: 3px 10px;
+	margin-bottom: 5px;
+	/*instruccion #2 */
+	background: -webkit-linear-gradient(left, #5CA861 , #BADFBC);
+	background: -o-linear-gradient(right, #5CA861 , #BADFBC);
+	background: -moz-linear-gradient(right, #5CA861 , #BADFBC);
+	background: linear-gradient(to right, #5CA861 , #BADFBC);
+	/* instruccion #3 */
+	border-radius: 10px;
+	
+}
+
+header h1{
+	padding-left: 10px;
+}
+
+#menu-principal ul {
+	float: left;
+	width: 200px;
+	padding: 0;
+	margin: 0;
+}
+
+#menu-principal ul li {
+	padding: 10px;
+	list-style-type: none;
+}
+
+#contenido {
+	margin-left: 200px;
+	padding: 10px;
+	color: black;
+	/*--- instruccion #4 ---*/
+	background-image: url("/imagenes/imagen3.jpg");
+	/* instruccion #5 */
+	border-radius: 6px;
+}
+/*---- instruccion #6 -----*/
+img[class="imagen2_"]{ 
+    border: 2px solid #605B56;
+	margin: 3px;
+	border-radius: 4px;
+}
+
+footer {
+	clear: both;
+	border-top: solid 2px #605B56;
+	padding-top: 10px;
+	margin-top: 15px;
+	text-align: center;
+}
+
+#contenido p img {
+	float: right;
+}
